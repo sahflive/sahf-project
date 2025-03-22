@@ -1,0 +1,117 @@
+.banner_container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust as needed */
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+.bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for better readability */
+}
+
+/* TITLE*/
+
+
+.title_container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: #0b5394;
+  width: 100%; /* Ensures full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content inside */
+  justify-content: center;
+  gap: 10px; /* Adds spacing between text and button */
+}
+.customButton{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Scrolling Text */
+
+.scrolling_text_container_left{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-top: 40px;
+}
+.scrolling_text_container_left span{
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 8px 20px;
+  background: #f00;
+  color: #fff;
+  clip-path: polygon(15% 0, 100% 0,100% 100%,0 100%);
+  font-weight: 600;
+}
+.scrolling_text_container_right{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-top: 40px;
+}
+.scrolling_text_container_right span{
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 8px 20px;
+  background: #f00;
+  color: #fff;
+  clip-path: polygon(0 0, 85% 0,100% 100%,0 100%);
+  font-weight: 600;
+}
+
+.blinking {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
+  .customButton {
+    font-size: 16px;
+  }
+  .scrolling_text_container_left span,
+  .scrolling_text_container_right span {
+    padding: 6px 10px;
+  }
+  .bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+  }
+}
