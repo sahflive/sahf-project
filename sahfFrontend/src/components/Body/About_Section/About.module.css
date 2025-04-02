@@ -1,0 +1,151 @@
+.section {
+  width: 100%;
+  margin-top: 250px;
+
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+.content_section {
+  flex: 1;
+}
+
+.image_section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_section img {
+  max-width: 100%;
+  margin: 50px 0px;
+  height: 400px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.section .title h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.content h3 {
+  color: #131111;
+  font-size: 25px;
+}
+
+.content p {
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #343333;
+
+}
+
+.button {
+  margin-top: 30px;
+}
+
+.button a {
+  background-color: #3d3d3d;
+  padding: 7px 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+}
+
+.button a:hover {
+  background-color: #a52a2a;
+  color: #fff;
+}
+
+.social {
+  display: flex; 
+  gap: 18px; 
+  margin-top: 7px;
+  align-items: center; 
+}
+
+.social a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #333; 
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #007bff; 
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .section {
+    width: 100%;
+    margin-top: 300px;
+  
+  }
+
+  .container {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+   
+  .content h3 {
+    color: #131111;
+    font-size: 18px;
+    margin-left: 80px;
+  }
+  .title {
+    text-align: center;
+    font-size: 19px;
+  }
+  .section .title h1{
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .button a {
+    padding: 7px 15px;
+  }
+
+  .social {
+    display: flex; 
+    gap: 15px; 
+    margin-top: 11px;
+    margin-left: 110px;
+    align-items: center; 
+  }
+  
+  .social a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #333; 
+    transition: color 0.3s ease;
+  }
+  
+  .social a:hover {
+    color: #007bff; 
+  }
+  .image_section img {
+    max-width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+}
