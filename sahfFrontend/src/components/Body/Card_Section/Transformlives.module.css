@@ -1,0 +1,30 @@
+.card_section{
+   width: 80%;
+   margin: 40px auto;
+}
+.container{
+  font-size: 50px;
+  font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+/* .card_section{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */
+.card_body{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media screen and (max-width: 768px) {
+  .card_section{
+    width: 100%;
+  }
+  .container{
+    font-size: 40px;
+  }
+}

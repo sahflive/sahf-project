@@ -1,0 +1,57 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* 🔹 Responsive Grid Layout */
+.grid_container {
+  width: 80%;
+  margin:40px auto; ; 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Space between cards */
+  justify-content: center;
+  padding: 20px;
+}
+
+/* 🔹 Card Styling */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* 🔹 Responsive for Small Screens */
+@media (max-width: 1024px) {
+  .grid_container {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid_container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid_container {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row on very small screens */
+  }
+}

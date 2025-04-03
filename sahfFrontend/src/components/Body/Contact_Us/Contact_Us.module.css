@@ -1,0 +1,86 @@
+.section {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between; /* Space between image & content */
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  flex-direction: row; /* Default: Image Left, Content Right */
+}
+
+/* 🔹 Image Section */
+.image_section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; /* Align to left */
+  align-items: center;
+}
+
+.image_section img {
+  max-width: 100%;
+  height: 400px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* 🔹 Content Section */
+.content_section {
+  flex: 1;
+  padding: 0 40px; /* Adds space between image & text */
+}
+
+.title h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.content h3 {
+  font-size: 25px;
+  color: #131111;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #343333;
+}
+
+/* 🔹 Button Styling */
+.button {
+  margin-top: 30px;
+}
+
+.button a {
+  background-color: #3d3d3d;
+  padding: 7px 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.button a:hover {
+  background-color: #a52a2a;
+}
+
+/* 🔹 Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack vertically on small screens */
+    text-align: center;
+  }
+
+  .image_section {
+    justify-content: center; /* Center image on small screens */
+    margin-bottom: 20px;
+  }
+
+  .content_section {
+    padding: 0 20px;
+  }
+}
