@@ -8,6 +8,7 @@ import Priority from '../Body/Priority/Priority.jsx';
 import Contact_Us from '../Body/Contact_Us/Contact_Us.jsx';
 import Partners from '../Body/Partners/Partners.jsx';
 import Achivement from '../Body/Odometer/Achivement.jsx';
+import Footer from '../Footer/Footer.jsx';
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
       <Priority/>
       <Contact_Us/>
       <Partners/>
-      
+      <Footer/>
      </div>
   )
 }
