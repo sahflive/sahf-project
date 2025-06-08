@@ -25,17 +25,15 @@ const Navbar = () => {
         </li>
         <li class="nav-item dropdown">
           <Link class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Link
+            Way To Donate
           </Link>
           <ul class="dropdown-menu">
-            <li><Link class="dropdown-item" to="#">Action</Link></li>
-            <li><Link class="dropdown-item" to="#">Another action</Link></li>
+            <li><Link class="dropdown-item" to="/Donate_To_A_Cause">Donate to a Cause</Link></li>
+            <li><Link class="dropdown-item" to="/Our_Gift_Wishlist">Our Gift Wishlist</Link></li>
+            <li><Link class="dropdown-item" to="/Donate_for_Development">Donate for Development</Link></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><Link class="dropdown-item" to="#">Something else here</Link></li>
+            <li><Link class="dropdown-item" to="/Other_Ways_to_Give">Other Ways to Give</Link></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <Link class="nav-link disabled" aria-disabled="true">Link</Link>
         </li>
       </ul>
       <form class="d-flex" role="search">
