@@ -1,0 +1,79 @@
+/* slider css */
+.slider{
+  height: 350px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.slide_track{
+  display: flex;
+  width: calc(250px * 12); /* Assuming 12 slides */
+   animation: scroll 40s linear infinite;
+}
+.slide_track:hover{
+  animation-play-state: paused;
+}
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 6)); /* Assuming 12 slides */
+  }
+}
+.slide{
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.slide h2 {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+  margin: 0;
+}
+
+.slide img{
+  width: 100%;
+  border: 3px solid #007bff; /* Add a nice blue border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s;
+  margin-bottom: 10px; /* Space between image and text */
+
+}
+
+
+.slide img:hover {
+  transform: scale(1.08); 
+}
+
+/* GRADIENT SHADOW */
+.slider::before,
+.slider::after{
+  background:linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+.slider::before{
+  left: 0;
+  top: 0;
+}
+.slider::after{
+  right: 0;
+  top: 0;
+  transform: rotate(180deg);
+}

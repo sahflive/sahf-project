@@ -9,6 +9,7 @@ import Contact_Us from '../Body/Contact_Us/Contact_Us.jsx';
 import Partners from '../Body/Partners/Partners.jsx';
 import Achivement from '../Body/Odometer/Achivement.jsx';
 import Footer from '../Footer/Footer.jsx';
+import Slider from '../Healthcare/Slider.jsx';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Contact_Us/>
       <Partners/>
       <Footer/>
+
      </div>
   )
 }

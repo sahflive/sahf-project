@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -14,24 +15,27 @@ const Navbar = () => {
       style={{ "--bs-scroll-height": "100px" }}
       >
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <Link class="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Education">Education</a>
+          <Link class="nav-link" to="/Education">Education</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/Healthcare">Healthcare</Link>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Link
-          </a>
+          </Link>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><Link class="dropdown-item" to="#">Action</Link></li>
+            <li><Link class="dropdown-item" to="#">Another action</Link></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><Link class="dropdown-item" to="#">Something else here</Link></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Link</a>
+          <Link class="nav-link disabled" aria-disabled="true">Link</Link>
         </li>
       </ul>
       <form class="d-flex" role="search">
