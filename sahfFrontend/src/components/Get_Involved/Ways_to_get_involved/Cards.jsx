@@ -1,4 +1,5 @@
 import styles from './Cards.module.css';
+import {Link} from 'react-router-dom'
 
 
 const Cards = (props) => {
@@ -7,7 +8,7 @@ const Cards = (props) => {
       <img src={props.image} alt="" />
       <div className={styles.decription}>
         <h2>{props.heading}</h2>
-        <button className={styles.btn}>Register Now</button>
+        <Link className={styles.btn} to='/partner_with_us'>Register Now</Link>
       </div>
   
     </div>
