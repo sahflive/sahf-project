@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../Header/Navbar'
-import Footer from '../Footer/Footer'
 import styles from './Sponsor_A_Child.module.css'
 import img1 from '../../assets/sponsor2.jpg' 
 import Slider from './Slider'
@@ -9,7 +7,6 @@ const Sponsor_A_Child = () => {
 
   return (
     <>
-    <Navbar/>
     <div className={styles.container}>
       <div className={styles.img_Container}>
       <img src={img1} alt="" />
@@ -26,8 +23,6 @@ const Sponsor_A_Child = () => {
        </div>
 
     </div>
-   <Footer/>
-  
     </>
   )
 }

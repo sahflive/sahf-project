@@ -1,0 +1,121 @@
+.wrapper {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerSection {
+  background-color: #007bff;
+  text-align: center;
+  padding: 0rem 1rem;
+  margin: 2rem;
+  color: white;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.email {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.email a {
+  color: #cceeff;
+  text-decoration: none;
+}
+
+.email a:hover {
+  text-decoration: underline;
+}
+
+.contentSection {
+  padding: 2rem 3rem;
+}
+
+.contentSection ul {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contentSection li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.bottomText {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.bottomEmail {
+  color: #b91c1c;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.bottomEmail:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.7rem 2rem;
+  background-color: #004f9f;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #003d7a;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contentSection {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .contentSection li {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contentSection {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .email, .bottomText {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}

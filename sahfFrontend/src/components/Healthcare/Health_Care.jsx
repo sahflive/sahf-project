@@ -1,6 +1,4 @@
 import styles from './Health_Care.module.css'
-import Navbar from '../Header/Navbar'
-import Footer from '../Footer/Footer'
 import Health1 from '../../assets/Healthcare5.jpg'
 import { Link, Route,Routes } from 'react-router-dom';
 
@@ -8,7 +6,6 @@ import { Link, Route,Routes } from 'react-router-dom';
 const Health_Care = () => {
   return (
   <>
-  <Navbar/>
   <div className={styles.container}>
   <img className={styles.image} src={Health1} alt="Healthcare_poster" />
 <div>
@@ -21,7 +18,6 @@ const Health_Care = () => {
   </div>
   </div>
   </div>
-  <Footer/>
   </>
   )
 }

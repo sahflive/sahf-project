@@ -15,7 +15,7 @@ function Footer() {
             <div className={styles.footer_wrapper}>
                <div className={styles.footer_main_container}>
                 <div className={styles.left_details}>
-                    <h4 className={styles.left_heading}>Quick link</h4>
+                    <h4 className={styles.left_heading}>Quick Link</h4>
                     <a className={styles.sky_link} href="">Donate Now</a><br />
                     <a className={styles.sky_link} href="">Unfortunate Life</a>
                     <div><a className={styles.sky_link} href="">Life of a Commoner</a> <span>by SAHF</span> </div>
@@ -44,7 +44,7 @@ function Footer() {
                           <p> <span className={styles.sky_link}>ADDRESS: </span>Safezone Active Humanity Foundation,<br />
                             Bairiya,Ballia(UP),277201</p>
                           <p> <span className={styles.sky_link}>WhatsApp: </span>7705085933</p>
-                          <p>Contactus: <a href="">sahfofficial@gmail.com</a> </p>
+                          <p>Contactus: <a  className={styles.email}href="">sahfofficial@gmail.com</a> </p>
                           <div className={styles.copy_right}>
                             <p>Copyright &copy;2025 SAHF  All Right Reserved</p>
                             <a href="">Admin login</a> 

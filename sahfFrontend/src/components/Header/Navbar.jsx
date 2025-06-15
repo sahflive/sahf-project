@@ -23,6 +23,7 @@ const Navbar = () => {
         <li class="nav-item">
           <Link class="nav-link" to="/Healthcare">Healthcare</Link>
         </li>
+        {/* Ways to donate */}
         <li class="nav-item dropdown">
           <Link class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Way To Donate
@@ -35,6 +36,20 @@ const Navbar = () => {
             <li><Link class="dropdown-item" to="/Other_Ways_to_Give">Other Ways to Give</Link></li>
           </ul>
         </li>
+        {/* Get_Involved Section */}
+           <li class="nav-item dropdown">
+          <Link class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get Involved
+          </Link>
+          <ul class="dropdown-menu">
+            <li><Link class="dropdown-item" to="/Ways_to_get_involved">Ways to get Involved</Link></li>
+            <li><Link class="dropdown-item" to="/Join_us">Join Us/Volunteer</Link></li>
+            <li><Link class="dropdown-item" to="/Donate">Donate</Link></li>
+            <li><Link class="dropdown-item" to="/Partner_with_us">Partner_with_us</Link></li>
+            <li><Link class="dropdown-item" to="/Sponsorship">Sponsorship</Link></li>
+          </ul>
+        </li>
+
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>

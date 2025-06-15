@@ -1,0 +1,156 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3d3636;
+  background-color: #f8f9fa;
+}
+
+/* 3D Box/Card Effect */
+.meeting > div {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.meeting2 p {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.meeting2 p::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  color: #0d47a1; /* bullet color (blue) */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.meeting > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.meeting h1 {
+  font-size: 2.5rem;
+  color: white;
+  background-color: #0056b3;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Application Format Style */
+.Invitation {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 2rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.Invitation p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.Invitation .highlight {
+  font-weight: bold;
+  color: #0d47a1;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.Invitation ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.Invitation li {
+  margin-bottom: 0.8rem;
+}
+
+.Invitation strong {
+  font-weight: bold;
+}
+
+.Invitation em {
+  font-style: italic;
+  color: #444;
+}
+
+.Invitation h2,
+.Invitation h3 {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.Invitation a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.Invitation a:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .meeting h1 {
+    font-size: 1.6rem;
+  }
+
+  .meeting > div,
+  .Invitation {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .Invitation ul {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .meeting h1 {
+    font-size: 1.4rem;
+  }
+
+  .Invitation h2,
+  .Invitation h3 {
+    font-size: 1.1rem;
+  }
+
+  .Invitation a {
+    width: 100%;
+    text-align: center;
+  }
+}

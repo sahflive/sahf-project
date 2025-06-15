@@ -1,6 +1,4 @@
 import Cards from './Cards';
-import Navbar from '../../Header/Navbar'
-import Footer from '../../Footer/Footer';
 import img1 from '../../../assets/Way to donate/Donate_to_a_cause1.jpg';
 import img2 from '../../../assets/Way to donate/Donate_to_a_cause2.jpg';
 import img3 from '../../../assets/Way to donate/Donate_to_a_cause3.jpg';
@@ -19,7 +17,6 @@ import { CgArrowRightO } from "react-icons/cg";
 const Donate_To_A_Cause = () => {
   return (
     <>
-    <Navbar/>
     <div className={styles.container}>
       <img src={img1} alt="" />
       <div className={styles.content}>
@@ -74,7 +71,6 @@ const Donate_To_A_Cause = () => {
         </div>
       </div>
     </div>
-    <Footer />
     </>
   )
 }

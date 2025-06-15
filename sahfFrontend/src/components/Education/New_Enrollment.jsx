@@ -1,14 +1,11 @@
 import React from 'react'
 import { CgArrowRightO } from "react-icons/cg";
 import styles from './New_Enrollment.module.css'
-import Navbar from '../Header/Navbar'
 import img1 from '../../assets/new_enroll1.jpg'
-import Footer from '../Footer/Footer.jsx'
 
 const New_Enrollment = () => {
   return (
     <>
-      <Navbar/>
       <div className={styles.container}>
         <img src={img1} alt="Education" className={styles.image} />
        <div className={styles.overlayText}>
@@ -35,7 +32,6 @@ const New_Enrollment = () => {
         className={`btn btn-info ${styles.applyButton2}`}>Learn More
         </button>
       </div>
-      <Footer/>
       </>
   )
 }
