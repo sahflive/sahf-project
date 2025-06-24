@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Contact_Us.module.css';
-import Contact_Us_img from '../../../assets/contact-us.jpg';
+import Contact_Us_img from '../../../assets/Body/contact-us.jpg';
 
 const Contact_Us = () => {
   return (

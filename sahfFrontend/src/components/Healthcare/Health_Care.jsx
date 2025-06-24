@@ -1,5 +1,5 @@
 import styles from './Health_Care.module.css'
-import Health1 from '../../assets/Healthcare5.jpg'
+import Health1 from '../../assets/Healthcare/Healthcare5.jpg'
 import { Link, Route,Routes } from 'react-router-dom';
 
 

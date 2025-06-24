@@ -1,7 +1,7 @@
 import React from 'react'
 import { CgArrowRightO } from "react-icons/cg";
 import styles from './New_Enrollment.module.css'
-import img1 from '../../assets/new_enroll1.jpg'
+import img1 from '../../assets/Body/new_enroll1.jpg'
 
 const New_Enrollment = () => {
   return (

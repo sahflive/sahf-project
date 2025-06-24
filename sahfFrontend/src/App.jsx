@@ -15,6 +15,17 @@ import WriteYourChild from "./components/Get_Involved/Ways_to_get_involved/write
 import Partner_with_us from "./components/Get_Involved/Partner_with_us/Partner_with_us";
 import Join_us from "./components/Get_Involved/Join_us/Join_us";
 import Sponsorship from "./components/Get_Involved/Sponsorship/Sponsorship";
+import Who_we_are from "./components/About_us/Who_we_are/Who_we_are";
+import FAQs from "./components/About_us/FAQs/FAQs";
+import Laws_and_policy from "./components/About_us/Laws_and_policy/Laws_and_policy";
+import Accountability_Report from "./components/About_us/Accountability_report/Account";
+import Contact_us from "./components/About_us/Contact_us/Contact_us";
+import New_Enrollment from "./components/Education/New_Enrollment";
+import Health_Care from "./components/Healthcare/Health_Care";
+import Donate from "./components/Donate/Donate";
+import Notice from "./components/Notice/Notice";
+import Unfortunate_life from "./components/More/Unfortunate_life/Unfortunate_life";
+
 
 function App() {
   return (
@@ -22,17 +33,25 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Education" element={<Education />} />
-        <Route path="/Healthcare" element={<Healthcare />} />
+        <Route path="/Education/New_Enrollment" element={<New_Enrollment />} />
+        <Route path="/Healthcare/Health_Care" element={<Health_Care />} />
         <Route path="/Sponsor_A_Child" element={<Sponsor_A_Child />} />
         <Route path="/Donate_To_A_Cause" element={<Donate_To_A_Cause />} />
         <Route path="/Join_us" element={<Join_us />} />
         <Route path="/Partner_with_us" element={<Partner_with_us />} />
-        <Route path="/Donate" element={<Donate_To_A_Cause />} />
+        <Route path="/Ways_to_donate/Donate_to_Cause" element={<Donate_To_A_Cause />} />
         <Route path="/Sponsorship" element={<Sponsorship />} />
         <Route path="/Ways_to_get_involved" element={<Ways_to_get_involved />} />
         <Route path="/sahf_experience" element={<SahfExperience />} />
         <Route path="/write_your_child" element={<WriteYourChild/>} />
+        <Route path="About_us/Who_we_are" element={<Who_we_are/>} />
+        <Route path="About_us/FAQs" element={<FAQs/>} />
+        <Route path="About_us/Laws_&_policy" element={<Laws_and_policy/>} />
+        <Route path="About_us/Accountability_Report" element={<Accountability_Report/>} />
+        <Route path="About_us/Contact_us" element={<Contact_us/>} />
+        <Route path="/Donate" element={<Donate/>} />
+        <Route path="/Notice" element={<Notice/>} />
+        <Route path="/More/Unfortunate_life" element={<Unfortunate_life/>} />
       </Routes>
       <Footer />
       </>

@@ -1,9 +1,9 @@
-import img2 from '../../assets/sponsor3.jpg'
-import img3 from '../../assets/sponsor4.jpg'    
-import img4 from '../../assets/sponsor5.jpg'
-import img5 from '../../assets/sponsor6.jpg'  
-import img6 from '../../assets/sponsor7.jpg'
-import img7 from '../../assets/sponsor8.jpg'
+import img2 from '../../assets/Healthcare/sponsor3.jpg'
+import img3 from '../../assets/Healthcare/sponsor4.jpg'    
+import img4 from '../../assets/Healthcare/sponsor5.jpg'
+import img5 from '../../assets/Healthcare/sponsor6.jpg'  
+import img6 from '../../assets/Healthcare/sponsor7.jpg'
+import img7 from '../../assets/Healthcare/sponsor8.jpg'
 import styles from './Slider.module.css'
 
 const Slider = () => {

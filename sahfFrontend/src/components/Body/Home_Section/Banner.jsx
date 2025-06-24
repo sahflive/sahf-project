@@ -1,12 +1,13 @@
 import styles from "./Banner.module.css";
-import banner1 from "../../../assets/img3.jpg";
+import banner1 from "../../../assets/Body/img3.jpg";
+// import banner1 from "../../../assets/Body/new_enroll1.jpg";
 
 const Banner = () => {
   return (
     <div className={styles.banner_container}>
       <img src={banner1} alt="Home Banner" className={styles.banner} />
       <h1 className={styles.bannerText}>
-      बेटी बचाओ , बेटी पढ़ाओ
+      SAVE The Daughter,<br/>EDUCATE The Child
       </h1> 
       <div className={styles.title_container}>
         <div className={styles.title}>

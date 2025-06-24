@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Partners.module.css'
-import Partners_img from '../../../assets/partner.jpg'
+import Partners_img from '../../../assets/Body/partner.jpg'
 
 const Partners = () => {
   return (

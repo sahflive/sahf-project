@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./Priority.module.css";
-import PriorityVideo1 from "../../../assets/priority1.mp4"; 
-import PriorityVideo2 from "../../../assets/priority2.mp4"; 
-import PriorityVideo3 from "../../../assets/priority3.mp4"; 
-import PriorityVideo4 from "../../../assets/priority4.mp4"; 
-import PriorityVideo5 from "../../../assets/priority5.mp4"; 
-import PriorityVideo6 from "../../../assets/priority6.mp4"; 
-import PriorityVideo7 from "../../../assets/priority7.mp4"; 
-import PriorityVideo8 from "../../../assets/priority8.mp4"; 
+import PriorityVideo1 from "../../../assets/Body/priority1.mp4"; 
+import PriorityVideo2 from "../../../assets/Body/priority2.mp4"; 
+import PriorityVideo3 from "../../../assets/Body/priority3.mp4"; 
+import PriorityVideo4 from "../../../assets/Body/priority4.mp4"; 
+import PriorityVideo5 from "../../../assets/Body/priority5.mp4"; 
+import PriorityVideo6 from "../../../assets/Body/priority6.mp4"; 
+import PriorityVideo7 from "../../../assets/Body/priority7.mp4"; 
+import PriorityVideo8 from "../../../assets/Body/priority8.mp4"; 
 
 const cardData = [
   { id: 1, title: "Awareness", video: PriorityVideo1 },

@@ -1,0 +1,107 @@
+/* NEW hero section with fixed height */
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.heroSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: white;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* FAQ section starts after image */
+.FAQs {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.accordionList {
+  list-style: none;
+  padding: 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.accordionItem {
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.accordionHeader {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.accordionHeader:hover {
+  background-color: #f0f0f0;
+}
+
+.accordionContent {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 2.3rem;
+  }
+
+  .accordionHeader {
+    font-size: 1rem;
+  }
+
+  .accordionContent {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    left: 3%;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .accordionHeader {
+    padding: 0.8rem;
+  }
+
+  .accordionContent {
+    padding: 0.8rem;
+  }
+}

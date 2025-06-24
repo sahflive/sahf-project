@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Impact_Areas.module.css";
 import { CgArrowRightO } from "react-icons/cg";
-import Card_img from '../../../assets/img5.jpg'
+import Card_img from '../../../assets/Body/img5.jpg'
 const Impact_Areas = () => {
   return (
     <div className={styles.container}>

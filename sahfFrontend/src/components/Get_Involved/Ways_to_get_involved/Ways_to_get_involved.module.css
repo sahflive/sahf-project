@@ -13,6 +13,7 @@
   width: 100%;
   height: auto;
   max-height: 450px;
+  margin-top: 4rem;
   object-fit: cover;
   display: block;
 }

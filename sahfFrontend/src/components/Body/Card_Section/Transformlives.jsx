@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styles from "./Transformlives.module.css";
-import Card_img1 from "../../../assets/card1.jpg";
-import Card_img2 from "../../../assets/card2.jpg";
-import Card_img3 from "../../../assets/card3.jpg";
+import Card_img1 from "../../../assets/Body/card1.jpg";
+import Card_img2 from "../../../assets/Body/card2.jpg";
+import Card_img3 from "../../../assets/Body/card3.jpg";
 
 const Transformlives = () => {
   // 🔹 Step 1: Store data using useState

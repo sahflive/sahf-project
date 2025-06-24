@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Sponsor_A_Child.module.css'
-import img1 from '../../assets/sponsor2.jpg' 
+import img1 from '../../assets/Healthcare/sponsor2.jpg' 
 import Slider from './Slider'
 
 const Sponsor_A_Child = () => {

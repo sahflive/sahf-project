@@ -2,7 +2,7 @@ import styles from './About.module.css';
 import { FaWhatsapp } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
-import About_img from '../../../assets/img5.jpg'
+import About_img from '../../../assets/Body/img5.jpg'
 
 const About = () => {
   return (
