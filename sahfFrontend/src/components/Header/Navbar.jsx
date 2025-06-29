@@ -296,7 +296,7 @@ const Navbar = () => {
                 </Link>
                 <ul class="dropdown-menu">
                   <li><Link class="dropdown-item" href="#">General Awareness</Link></li>
-                  <li><Link class="dropdown-item" href="#">Gallery</Link></li>
+                  <li><Link class="dropdown-item" to='/Event_and_stories/Gallery_section'>Gallery</Link></li>
                   <li><Link class="dropdown-item" href="#">Upcoming Events</Link></li>
                   <li><Link class="dropdown-item" href="#">Past Events</Link></li>
                 </ul>

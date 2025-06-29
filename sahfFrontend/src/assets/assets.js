@@ -10,6 +10,97 @@ import Education_head from './About us/team_member9.jpg';
 import IT_head from './About us/team_member101.png';
 import IT_member1 from './About us/team_member123.png';
 import IT_member2 from './About us/team_member13.jpg';
+import upcoming1 from './Event_and_stories/upcoming/img1.jpg'
+import upcoming2 from './Event_and_stories/upcoming/img2.jpg'
+import past1 from './Event_and_stories/past/img1.jpg'
+import past2 from './Event_and_stories/past/img2.jpg'
+import past_glimpses1 from './Event_and_stories/past glimpses/img1.jpg'
+import past_glimpses2 from './Event_and_stories/past glimpses/img2.jpg'
+
+
+
+export const events = [
+
+  {
+    id: 1,
+    title: "Republic day",
+    date: "26 Jan 2026",
+    description: "Cultural programmes/Sports&games/Prize distribution etc.",
+    image:upcoming1,
+    type: "upcoming",
+  },
+
+    {
+    id: 3,
+    title: "Children's day",
+    date: "14 Nov 2025",
+    description: "Cultural programmes/Sports&games/Prize distribution etc.",
+    image:upcoming1,
+    type: "upcoming",
+  },
+
+   {
+    id: 4,
+    title: "Independence Day",
+    date: "15 Aug 2025",
+    description: "Upcoming event to plant 500+ trees around campus.",
+    image: upcoming2,
+    type: "upcoming",
+  },
+
+   {
+    id: 5,
+    title: "Teachers' day",
+    date: "5 Sept 2025",
+    description: "Cultural programmes/Sports&games/Prize distribution etc.",
+    image: upcoming2,
+    type: "upcoming",
+  },
+     {
+    id: 6,
+    title: "Teachers' day",
+    date: "5 Sept 2025",
+    description: "Cultural programmes/Sports&games/Prize distribution etc.",
+    image: upcoming2,
+    type: "upcoming",
+  },
+  {
+    id: 7,
+    title: "FREE FOOD DISTRIBUTION CAMPAIGN ON NOIDA SECTOR 16-B NEAR EKMURTI",
+    date: "4 October 2022",
+    description: "Recently, a food distribution campaign was successfully organized by our foundation on 4th October 2022, in greater noida (Ekmurti), sector 16-B. This event was executed from 12p.m to 5p.m. We are glad to notify that almost 1300-1500 people were benefited by our event. After the completion of campaign, the flaws and asset were concluded by our volunteers to make improvements in future so that more and more peoples can be benefited by us, also further plans and aims were discussed by them. ",
+    image: past1,
+    type: "past",
+  },
+
+   {
+    id: 8,
+    title: "CULTURAL AND EDUCATION FUNCTION AT SAHF COACHING INSTITUTE",
+    date: "5 September 2023",
+    description: "On 5 September 2023, a program was organised to tell our students about the importance of a teacher and about their significant role in one's life, how only a good teacher can mould their future towards their goals. They were also told about our 2nd president Dr. Sarvepalli Radhakrishnan. Cake and candies were distributed amongst. ",
+    image: past2,
+    type: "past",
+  },
+  {
+    id: 9,
+    title: "INAGURATION OF CAMPAIGN: DREAM OF LIFE",
+    date: "5 December 2023",
+    description: "Today, SAFEZONE-ActiveHumanityFoundation has inaugurated a coaching institute for children studying up to the 8th standard. This institution will operate in SAHF head office, near Dharam Talkis Cinema Hall Bariya, Ballia Uttar PradeshBallia Uttar Pradesh. Firstly, Ayush Kushwaha explained the purpose of this event. The goal of the foundation is to give free education to students with poor financial so that they can compete in this world with an edge in education. SAHF, provide free coaching to students as coaching become a vital part of today's education infrastructure. On the very first day, nearly 50 students and eighty parents have shown interest in this new program. Also, by the end of this event, we manage to enroll about 35 students for the upcoming session 2022-23. All students will benefit from our program.",
+    image: past2,
+    type: "past",
+  },
+];
+
+
+export const photoData = [
+  { src: past_glimpses1, title: "Blood Donation Camp" },
+  { src: past_glimpses2, title: "Tree Plantation" },
+  { src: past1, title: "Visit to Old Age Home" },
+  { src: past2, title: "Cleanliness Drive" },
+  { src: past_glimpses1, title: "Food Distribution" },
+  { src: past_glimpses2, title: "Blood Donation Camp" },
+  { src: past2, title: "Food Distribution" },
+];
 
 export const coreTeam = [
   {
@@ -57,13 +148,13 @@ export const departments = [
        {
         img: IT_member1,
         name: 'Neeraj Kumar Verma',
-        position: 'Member',
+        position: 'IT Project Manager',
         about: 'IT Student at UIET (PU), Chandigarh | Full-Stack Web Developer | Real-World Problem Solver',
       },
        {
         img: IT_member2,
         name: 'Nitesh Kumar',
-        position: 'Member',
+        position: 'Web Developer',
         about: 'Full-Stack Web Developer and IT student at UIET, PU Chandigarh, passionate about solving real-world problems through technology.',
       },
     ],

@@ -25,6 +25,7 @@ import Health_Care from "./components/Healthcare/Health_Care";
 import Donate from "./components/Donate/Donate";
 import Notice from "./components/Notice/Notice";
 import Unfortunate_life from "./components/More/Unfortunate_life/Unfortunate_life";
+import Gallery_section from "./components/Event_and_stories/Gallery_section";
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         <Route path="/Donate" element={<Donate/>} />
         <Route path="/Notice" element={<Notice/>} />
         <Route path="/More/Unfortunate_life" element={<Unfortunate_life/>} />
+        <Route path="/Event_and_stories/Gallery_section" element={<Gallery_section/>} />
       </Routes>
       <Footer />
       </>
