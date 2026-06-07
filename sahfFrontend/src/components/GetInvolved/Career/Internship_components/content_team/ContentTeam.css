@@ -1,0 +1,121 @@
+.content-team-heading-cont h2 {
+    color: yellow;
+    font-weight: 600;
+}
+
+.content-team-main-cont .content-team-heading-cont {
+    width: 100%;
+    padding: 1rem 10rem;
+     background: #047d98;
+    font-size: 4rem;
+    color: white;
+}
+
+.content-team-main-cont .content-team-details-cont {
+    width: 100%;
+    padding: 2rem 10rem;
+}
+
+.content-team-main-cont .content-team-details-cont h3 {
+    text-decoration: underline;
+}
+
+.content-team-details-cont .first-ul .second-ul .third-ul li {
+    font-size: 1.2rem;
+}
+
+.content-team-main-cont .content-team-details-cont .apply-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-team-main-cont .content-team-details-cont .apply-btn-cont .apply-btn {
+      background: #047d98;
+    color: white;
+    padding: 0.4rem 2rem;
+    outline: 1px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.content-team-main-cont .content-team-details-cont .apply-btn-cont .apply-btn:hover {
+    transform: scale(1.02);
+    background: white;
+    color: #0275f7;
+    outline: 1px solid #0275f7;
+}
+
+.content-team-details-cont .first-ul .first-li {
+    list-style: none;
+}
+
+.content-team-details-cont .first-ul .first-li h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* responsive design */
+@media (min-width:600px) and (max-width:850px) {
+    .content-team-main-cont .content-team-heading-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+         background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .content-team-main-cont .content-team-details-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .content-team-details-cont .first-ul {
+        padding-left: 0rem;
+    }
+
+    .content-team-details-cont .first-ul .first-li {
+        list-style: none;
+    }
+}
+
+
+
+@media (min-width:290px) and (max-width: 600px) {
+    .content-team-main-cont .content-team-heading-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .content-team-main-cont .content-team-heading-cont h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-team-main-cont .content-team-details-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .content-team-details-cont .first-ul {
+        padding-left: 0rem;
+    }
+
+    .content-team-details-cont .first-ul .first-li {
+        list-style: none;
+    }
+
+    .content-team-details-cont .first-ul .first-li h4 {
+        font-size: 1.02rem;
+    }
+
+    .content-team-details-cont .first-ul .second-ul .third-ul li {
+        font-size: 1.02rem;
+        text-align: justify;
+    }
+}

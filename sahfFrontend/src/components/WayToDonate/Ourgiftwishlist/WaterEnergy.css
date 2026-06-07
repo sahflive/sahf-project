@@ -1,0 +1,193 @@
+.waterenergy-wrapper-cont .waterenergy-main-cont .section-1 {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 2rem 8rem;
+    /* border: 5px solid rgb(0, 255, 76); */
+}
+
+.waterenergy-wrapper-cont .waterenergy-heading {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background: rgb(145, 11, 11);
+    padding: 3rem 10rem;
+    /* border: 2px solid green; */
+}
+
+.waterenergy-wrapper-cont .waterenergy-heading h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+.waterenergy-main-cont .section-1 .left-image-description-cont {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #e9eaeb;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.waterenergy-main-cont .section-1 .left-image-description-cont img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: fill;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    /* border: 5px solid yellow; */
+}
+
+.waterenergy-main-cont .section-1 .left-image-description-cont img:hover {
+    scale: 1.02;
+    box-shadow: 3px 3px 5px 2px;
+    transition: all 0.5s;
+}
+
+.waterenergy-main-cont .section-1 .left-image-description-cont h3 {
+    text-align: center;
+    color: #047d98;
+    margin-top: 0.5rem;
+}
+
+.waterenergy-main-cont .section-1 .left-image-description-cont p {
+    text-align: center;
+    color: #323030;
+    font-size: 1.2rem;
+}
+
+.waterenergy-main-cont .section-1 .btn {
+    width: 100%;
+    color: white;
+    background: #047d98;
+    padding: 0.4rem 0.5rem;
+    cursor: pointer;
+}
+
+.waterenergy-main-cont .section-1 .btn:hover {
+    color: #047d98;
+    background: white;
+    border: 1.5px solid #047d98;
+    transition: all 0.5s;
+    scale: 1.01;
+    box-shadow: 3px 3px 5px 2px;
+}
+
+.waterenergy-main-cont .section-1 .right-image-description-cont {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #e9eaeb;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.waterenergy-main-cont .section-1 .right-image-description-cont h3 {
+    text-align: center;
+    color: #047d98;
+    margin-top: 0.5rem;
+}
+
+.waterenergy-main-cont .section-1 .right-image-description-cont p {
+    text-align: center;
+    color: #323030;
+    font-size: 1.2rem;
+}
+
+.waterenergy-main-cont .section-1 .right-image-description-cont img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: fill;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    /* border: 5px solid yellow; */
+}
+
+.waterenergy-main-cont .section-1 .right-image-description-cont img:hover {
+    scale: 1.02;
+    box-shadow: 3px 3px 5px 2px;
+    transition: all 0.5s;
+}
+
+
+/* responsive  */
+@media (min-width:600px) and (max-width:850px) {
+    .waterenergy-wrapper-cont .waterenergy-heading {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        background: rgb(145, 11, 11);
+        padding: 2rem 2rem;
+        /* border: 2px solid green; */
+    }
+
+    .waterenergy-wrapper-cont .waterenergy-main-cont .section-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        padding: 2rem 2rem;
+        /* border: 5px solid rgb(0, 255, 76); */
+    }
+
+    .waterenergy-main-cont .section-1 .left-image-description-cont {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid grey;
+    }
+
+    .waterenergy-main-cont .section-1 .right-image-description-cont {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid grey;
+    }
+
+}
+
+
+@media (min-width:290px) and (max-width: 600px) {
+    .waterenergy-wrapper-cont .waterenergy-heading {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        background: rgb(145, 11, 11);
+        padding: 2rem 1rem;
+        /* border: 2px solid green; */
+    }
+
+    .waterenergy-wrapper-cont .waterenergy-main-cont .section-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        padding: 2rem 0.5rem;
+        /* border: 5px solid rgb(0, 255, 76); */
+    }
+
+    .waterenergy-main-cont .section-1 .left-image-description-cont {
+        width: 100%;
+        padding: 0.6rem;
+        border: 1px solid grey;
+    }
+
+    .waterenergy-main-cont .section-1 .left-image-description-cont p {
+        text-align: center;
+        color: #323030;
+        font-size: 1rem;
+    }
+
+    .waterenergy-main-cont .section-1 .right-image-description-cont {
+        width: 100%;
+        padding: 0.6rem;
+        border: 1px solid grey;
+    }
+
+    .waterenergy-main-cont .section-1 .right-image-description-cont p {
+        text-align: center;
+        color: #323030;
+        font-size: 1rem;
+    }
+
+}

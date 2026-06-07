@@ -1,0 +1,115 @@
+/* Global Reset */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+
+/* Wrapper */
+.error-section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #000;
+}
+
+/* Container */
+.error-page-container {
+  text-align: center;
+  max-width: 600px;
+  padding: 3rem 2rem;
+  background-color: #111;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+}
+
+/* Headings */
+.error-page-container h2 {
+  font-size: 7rem;
+  color: #FF3366; /* Vibrant pink-red */
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.error-page-container h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+/* Paragraph */
+.error-page-container p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Buttons */
+.btns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btns button {
+  padding: 0.75rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Primary Button */
+.btns .primary-btn {
+   background-color: #00D1FF;
+  color: #000;
+}
+
+.btns .primary-btn:hover {
+  background-color: #edf3f4;
+  color: #000;
+}
+
+/* Secondary Button */
+.btns .secondary-btn {
+  background-color: transparent;
+  color: #00D1FF;
+   border: 2px solid #00D1FF;
+}
+
+.btns .secondary-btn:hover {
+ background-color: #00D1FF;
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .error-page-container h2 {
+    font-size: 4rem;
+  }
+
+  .error-page-container h4 {
+    font-size: 1.5rem;
+  }
+
+  .error-page-container p {
+    font-size: 1rem;
+  }
+
+  .btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btns button {
+    width: 100%;
+    max-width: 250px;
+  }
+}

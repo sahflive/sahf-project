@@ -1,0 +1,147 @@
+.even-department-heading-cont h2 {
+    color: yellow;
+    font-weight: 600;
+}
+
+.even-department-main-cont .even-department-heading-cont {
+    width: 100%;
+    padding: 1rem 10rem;
+    background: #047d98;
+    font-size: 4rem;
+    color: white;
+}
+
+.even-department-main-cont .even-department-details-cont {
+    width: 100%;
+    padding: 2rem 10rem;
+}
+
+.even-department-main-cont .even-department-details-cont .left-right-list-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.even-department-details-cont .left-right-list-container .left-list {
+    width: 100%;
+}
+
+.even-department-details-cont .left-right-list-container .right-list {
+    width: 100%;
+}
+
+.even-department-main-cont .even-department-details-cont h3 {
+    text-decoration: underline;
+}
+
+.left-list .first-ul li {
+    font-size: 1.2rem;
+}
+
+.even-department-main-cont .even-department-details-cont .apply-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.even-department-main-cont .even-department-details-cont .apply-btn-cont .apply-btn {
+    background: #047d98;
+    color: white;
+    padding: 0.4rem 2rem;
+    outline: 1px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.even-department-main-cont .even-department-details-cont .apply-btn-cont .apply-btn:hover {
+    transform: scale(1.02);
+    background: white;
+    color: #0275f7;
+    outline: 1px solid #0275f7;
+}
+
+.left-right-list-container .left-list,
+.right-list .first-ul {
+    margin-top: 1rem;
+
+}
+
+.left-right-list-container .left-list .first-ul li {
+    font-size: 1.1rem;
+    list-style: square;
+}
+
+.even-department-details-cont .first-ul h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* responsive design */
+@media (min-width:600px) and (max-width:850px) {
+    .even-department-main-cont .even-department-heading-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .even-department-main-cont .even-department-details-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .even-department-details-cont .first-ul {
+        padding-left: 0rem;
+    }
+}
+
+
+
+@media (min-width:290px) and (max-width: 600px) {
+    .even-department-main-cont .even-department-heading-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .even-department-main-cont .even-department-heading-cont h2 {
+        font-size: 1.4rem;
+    }
+
+    .even-department-main-cont .even-department-details-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .even-department-main-cont .even-department-details-cont .left-right-list-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-right-list-container .left-list .first-ul li {
+        font-size: 1.02rem;
+        list-style: square;
+    }
+
+    .left-right-list-container .left-list .first-ul h4 {
+        font-size: 1.02rem;
+        font-weight: 600;
+    }
+
+    .left-right-list-container .right-list .first-ul li {
+        font-size: 1.02rem;
+        list-style: square;
+    }
+
+    .left-right-list-container .right-list .first-ul h4 {
+        font-size: 1.02rem;
+        font-weight: 600;
+    }
+}

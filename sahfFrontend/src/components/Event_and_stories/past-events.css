@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.row_past{
+    padding-left: 20px;
+  margin-top: 11vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  background-color:#0056b3;
+  color: aliceblue;
+  font-family: 'Playfair Display', serif;
+font-size: clamp(16px, 2.5vw + 1rem, 48px);
+  font-optical-sizing: auto;
+   font-weight: 700;
+  font-style: normal;
+
+}
+@media (max-width: 767px) {
+  .row_past{
+     margin-top: 9vh;
+     margin-bottom: -0.4rem;
+    
+  }
+}
+
+.custom-clip {
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  border-radius: 5px;
+}
+.board_past{
+  margin-top: 15px;
+}
+.card_title_text_past{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.card_body_text_past{
+ font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.card_text_heading_past{
+  font-family:monospace;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.card_date_past{
+   font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #555;
+}

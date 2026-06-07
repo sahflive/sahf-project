@@ -1,0 +1,121 @@
+.graphic-team-heading-cont h2 {
+    color: yellow;
+    font-weight: 600;
+}
+
+.graphic-team-main-cont .graphic-team-heading-cont {
+    width: 100%;
+    padding: 1rem 10rem;
+     background: #047d98;
+    font-size: 4rem;
+    color: white;
+}
+
+.graphic-team-main-cont .graphic-team-details-cont {
+    width: 100%;
+    padding: 2rem 10rem;
+}
+
+.graphic-team-main-cont .graphic-team-details-cont h3 {
+    text-decoration: underline;
+}
+
+.first-ul .second-ul .third-ul li {
+    font-size: 1.2rem;
+}
+
+.graphic-team-main-cont .graphic-team-details-cont .apply-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.graphic-team-main-cont .graphic-team-details-cont .apply-btn-cont .apply-btn {
+    background: #047d98;
+    color: white;
+    padding: 0.4rem 2rem;
+    outline: 1px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.graphic-team-main-cont .graphic-team-details-cont .apply-btn-cont .apply-btn:hover {
+    transform: scale(1.02);
+    background: white;
+    color: #0275f7;
+    outline: 1px solid #0275f7;
+}
+
+.graphic-team-details-cont .first-ul .first-li {
+    list-style: none;
+}
+
+.graphic-team-details-cont .first-ul .first-li h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* responsive design */
+@media (min-width:600px) and (max-width:850px) {
+    .graphic-team-main-cont .graphic-team-heading-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .graphic-team-main-cont .graphic-team-details-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .graphic-team-details-cont .first-ul {
+        padding-left: 0rem;
+    }
+
+    .graphic-team-details-cont .first-ul .first-li {
+        list-style: none;
+    }
+}
+
+
+
+@media (min-width:290px) and (max-width: 600px) {
+    .graphic-team-main-cont .graphic-team-heading-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .graphic-team-main-cont .graphic-team-heading-cont h2 {
+        font-size: 1.5rem;
+    }
+
+    .graphic-team-main-cont .graphic-team-details-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .graphic-team-details-cont .first-ul {
+        padding-left: 0rem;
+    }
+
+    .graphic-team-details-cont .first-ul .first-li {
+        list-style: none;
+    }
+
+    .graphic-team-details-cont .first-ul .first-li h4 {
+        font-size: 1.02rem;
+    }
+
+    .graphic-team-details-cont .first-ul .second-ul .third-ul li {
+       font-size: 1.02rem;
+        text-align: justify;
+    }
+}

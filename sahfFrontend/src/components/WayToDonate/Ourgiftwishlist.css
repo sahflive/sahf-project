@@ -1,0 +1,121 @@
+.ourgiftwishlist-main-cont {
+    width: 100%;
+    /* background: green; */
+}
+
+.ourgiftwishlist-wrapper-cont .ourgiftwishlist-main-cont .image-cont img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.ourgiftwishlist-main-cont .instruction-cont {
+    padding: 0.5rem 10rem;
+    background: #047d98;
+
+}
+
+.ourgiftwishlist-main-cont .instruction-cont h3 {
+    color: white;
+}
+
+.ourgiftwishlist-main-cont .redirect-link {
+    width: 100%;
+    /* height: 250px; */
+    display: grid;
+    z-index: -4;
+    overflow-x: hidden;
+    padding: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid rgb(210, 32, 32);
+
+}
+
+.ourgiftwishlist-main-cont .redirect-link .redirect-link-btn {
+    border: 1px solid rgb(12, 198, 12);
+    width: 100%;
+    color: black;
+    background: white;
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 0;
+    text-decoration: underline;
+}
+
+.ourgiftwishlist-main-cont .redirect-link .redirect-link-btn:hover {
+    background: #047d98;
+    color: white;
+}
+
+.ourgiftwishlist-main-cont .non-profit-making-gift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 7rem;
+    padding: 2rem 10rem;
+    background: #047d98;
+}
+
+.ourgiftwishlist-main-cont .non-profit-making-gift h2 {
+    color: white;
+    font-weight: 600;
+}
+
+.ourgiftwishlist-main-cont .non-profit-making-gift p {
+    color: white;
+}
+
+@media (min-width:600px) and (max-width:850px) {
+    .ourgiftwishlist-wrapper-cont .ourgiftwishlist-main-cont .image-cont img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .ourgiftwishlist-main-cont .instruction-cont {
+        padding: 0.5rem 2rem;
+        background: #047d98;
+    }
+
+    .ourgiftwishlist-main-cont .non-profit-making-gift {
+        width: 100%;
+        height: 7rem;
+        padding: 2rem 2rem;
+        background: #047d98;
+    }
+}
+
+@media (min-width:290px) and (max-width: 600px) {
+    .ourgiftwishlist-wrapper-cont .ourgiftwishlist-main-cont .image-cont img {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+
+    .ourgiftwishlist-main-cont .instruction-cont {
+        padding: 0.5rem 1rem;
+        background: #047d98;
+    }
+
+    .ourgiftwishlist-main-cont .instruction-cont h3 {
+        color: white;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .ourgiftwishlist-main-cont .redirect-link {
+        width: 100%;
+        display: grid;
+        z-index: -4;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid rgb(210, 32, 32);
+
+    }
+
+    .ourgiftwishlist-main-cont .non-profit-making-gift {
+        width: 100%;
+        height: 7rem;
+        padding: 2rem 1rem;
+        background: #047d98;
+    }
+}

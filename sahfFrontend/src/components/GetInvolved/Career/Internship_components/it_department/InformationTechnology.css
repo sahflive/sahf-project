@@ -1,0 +1,127 @@
+.information-technology-heading-cont h2 {
+    color: yellow;
+    font-weight: 600;
+}
+
+.information-technology-main-cont .information-technology-heading-cont {
+    width: 100%;
+    padding: 1rem 10rem;
+    background: #047d98;
+    font-size: 4rem;
+    color: white;
+}
+
+.information-technology-main-cont .information-technology-details-cont {
+    width: 100%;
+    padding: 2rem 10rem;
+}
+
+.information-technology-main-cont .information-technology-details-cont h3 {
+    text-decoration: underline;
+}
+
+.first-ul .second-ul li {
+    font-size: 1.2rem;
+    list-style: square;
+}
+
+.first-ul .first-li {
+    margin-top: 1.5rem;
+}
+
+.information-technology-main-cont .information-technology-details-cont .apply-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.information-technology-main-cont .information-technology-details-cont .apply-btn-cont .apply-btn {
+    background: #047d98;
+    color: white;
+    padding: 0.4rem 2rem;
+    outline: 1px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.information-technology-main-cont .information-technology-details-cont .apply-btn-cont .apply-btn:hover {
+    transform: scale(1.02);
+    background: white;
+    color: #0275f7;
+    outline: 1px solid #0275f7;
+}
+
+.information-technology-details-cont .first-ul .first-li {
+    list-style: none;
+}
+
+.information-technology-details-cont .first-ul .first-li h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* responsive design */
+@media (min-width:600px) and (max-width:850px) {
+    .information-technology-main-cont .information-technology-heading-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .information-technology-main-cont .information-technology-details-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .information-technology-details-cont .first-ul {
+        padding-left: 0rem;
+    }
+
+    .information-technology-details-cont .first-ul .first-li {
+        list-style: none;
+    }
+}
+
+
+
+@media (min-width:290px) and (max-width: 600px) {
+    .information-technology-main-cont .information-technology-heading-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .information-technology-main-cont .information-technology-heading-cont h2 {
+        font-size: 1.4rem;
+    }
+
+    .information-technology-main-cont .information-technology-details-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .information-technology-details-cont .first-ul {
+        padding-left: 0rem;
+    }
+
+    .information-technology-details-cont .first-ul .first-li {
+        list-style: none;
+    }
+
+    .information-technology-details-cont .first-ul .first-li h4 {
+        font-size: 1.02rem;
+        font-weight: 600;
+    }
+
+    .information-technology-details-cont .first-ul .second-ul li {
+        font-size: 1.02rem;
+        text-align: justify;
+    }
+}

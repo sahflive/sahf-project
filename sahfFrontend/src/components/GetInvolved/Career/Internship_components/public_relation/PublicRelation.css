@@ -1,0 +1,101 @@
+.public-relation-heading-cont h2 {
+    color: yellow;
+    font-weight: 600;
+}
+
+.public-relation-main-cont .public-relation-heading-cont {
+    width: 100%;
+    padding: 1rem 10rem;
+    background: #047d98;
+    font-size: 4rem;
+    color: white;
+}
+
+.public-relation-main-cont .public-relation-details-cont {
+    width: 100%;
+    padding: 2rem 10rem;
+}
+
+.public-relation-main-cont .public-relation-details-cont .responsbilities p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.public-relation-main-cont .public-relation-details-cont .responsbilities ul li {
+    font-size: 1.2rem;
+}
+
+.public-relation-main-cont .public-relation-details-cont .apply-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.public-relation-main-cont .public-relation-details-cont .apply-btn-cont .apply-btn {
+    background: #047d98;
+    color: white;
+    padding: 0.4rem 2rem;
+    outline: 1px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.public-relation-main-cont .public-relation-details-cont .apply-btn-cont .apply-btn:hover {
+    transform: scale(1.02);
+    background: white;
+    color: #0275f7;
+    outline: 1px solid #0275f7;
+}
+
+/* responsive design */
+@media (min-width:600px) and (max-width:850px) {
+    .public-relation-main-cont .public-relation-heading-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        background: #047d98;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .public-relation-main-cont .public-relation-details-cont {
+        width: 100%;
+        padding: 1rem 4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media (min-width:290px) and (max-width: 600px) {
+    .public-relation-main-cont .public-relation-heading-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        background: #047d98;
+        font-size: rem;
+        color: white;
+    }
+
+    .public-relation-main-cont .public-relation-heading-cont h2 {
+        font-size: 1.4rem;
+    }
+
+    .public-relation-main-cont .public-relation-details-cont {
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .public-relation-main-cont .public-relation-details-cont .responsbilities p {
+        font-size: 1.02rem;
+        text-align: justify;
+    }
+
+    .public-relation-main-cont .public-relation-details-cont .responsbilities ul li {
+        font-size: 1.02rem;
+        text-align: justify;
+    }
+
+    .public-relation-main-cont .public-relation-details-cont .responsbilities h4 {
+       font-size: 1.02rem;
+    }
+}

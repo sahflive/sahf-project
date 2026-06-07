@@ -1,0 +1,77 @@
+.notice-wrapper-cont .notice-main-cont {
+    position: relative;
+}
+
+.notice-wrapper-cont .notice-main-cont .notice-image-cont img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.notice-wrapper-cont .notice-main-cont .notice-heading-cont {
+    padding: 1rem 10rem;
+   background: #047d98;
+}
+
+.notice-wrapper-cont .notice-main-cont .notice-heading-cont h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+}
+
+.notice-wrapper-cont .notice-main-cont .notice-description-container {
+    padding: 1rem 10rem;
+}
+
+.notice-wrapper-cont .notice-main-cont .notice-description-container p {
+    font-size: 1.2rem;
+}
+
+/* responsive design */
+@media (min-width:600px) and (max-width:850px) {
+    .notice-wrapper-cont .notice-main-cont .notice-image-cont img {
+        width: 100%;
+        height: 21rem;
+        object-fit: cover;
+    }
+
+    .notice-wrapper-cont .notice-main-cont .notice-heading-cont {
+        padding: 1rem 4rem;
+        background: #047d98;
+    }
+
+    .notice-wrapper-cont .notice-main-cont .notice-description-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+
+
+}
+
+
+@media (min-width:290px) and (max-width: 600px) {
+
+    .notice-wrapper-cont .notice-main-cont .notice-image-cont img {
+        width: 100%;
+        height: 14rem;
+        object-fit: cover;
+    }
+
+    .notice-wrapper-cont .notice-main-cont .notice-heading-cont {
+        padding: 1rem 1rem;
+        background: #047d98;
+    }
+
+    .notice-wrapper-cont .notice-main-cont .notice-heading-cont h2 {
+        font-size: 1.4rem;
+    }
+
+    .notice-wrapper-cont .notice-main-cont .notice-description-container {
+        padding: 1rem 0.8rem;
+    }
+
+    .notice-wrapper-cont .notice-main-cont .notice-description-container p {
+        font-size: 1.1rem;
+    }
+}

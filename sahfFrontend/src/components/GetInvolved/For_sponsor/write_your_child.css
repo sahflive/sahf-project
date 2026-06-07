@@ -1,0 +1,142 @@
+.box1_write_your {
+  width: 100%;
+  height: auto;
+
+}
+
+.box1_write_your h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding-top: 10vh;
+  padding-left: 4vw;
+  background: #047d98;
+  width: 100%;
+  height: 25vh;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.box1_write_your h3 {
+  font-size: 1.2rem;
+  padding-bottom: 12vh;
+  font-weight: 700;
+  padding-bottom: 100px;
+}
+
+.textBody {
+  color: #333333;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 5vh;
+  padding: 3vh 2vh;
+  width: 90vw;
+  line-height: 4vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: white;
+  /* optional */
+  border-radius: 10px;
+  /* optional */
+}
+
+.bulletList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bulletList li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2vh;
+}
+
+.bulletList i {
+  color: black;
+  margin-right: 10px;
+  margin-top: 6px;
+  /* aligns icon vertically with text */
+  flex-shrink: 0;
+}
+
+.bulletList span {
+  flex: 1;
+}
+
+.bottom_text {
+  margin-top: 2vh;
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  margin-bottom: 2vh;
+}
+
+.card_Para_write {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.bottom_text button {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+@media (min-width:290px) and (max-width: 600px) {
+
+  .textBody {
+    font-size: 1.2rem;
+
+  }
+
+  .box1_write_your h1 {
+    height: 22vh;
+    padding-top: 8vh;
+    font-size: 2rem;
+  }
+
+  .box1_write_your h3 {
+    white-space: nowrap;
+
+    font-size: 1rem;
+
+  }
+
+  .card_Para_write {
+    white-space: nowrap;
+
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:600px) and (max-width:1024px) {
+
+  .textBody {
+    font-size: 1.2rem;
+  }
+
+  .box1_write_your h1 {
+    height: 22vh;
+    padding-top: 8vh;
+    font-size: 3rem;
+  }
+
+  .box1_write_your h3 {
+
+
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+}

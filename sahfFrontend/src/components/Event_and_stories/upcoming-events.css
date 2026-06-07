@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+.row_upcoming{
+    padding-left: 20px;
+  margin-top: 11vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  background-color:#0056b3;
+  color: aliceblue;
+  font-family: 'Playfair Display', serif;
+font-size: clamp(16px, 2.4vw + 1rem, 48px);
+  font-optical-sizing: auto;
+   font-weight: 700;
+  font-style: normal;
+  
+}
+@media (max-width: 767px) {
+  .row_upcoming{
+     margin-top: 9vh;
+     margin-bottom: -0.4rem;
+    
+  }
+}
+.card_upcoming{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+     /* justify-content: space-evenly; */
+     margin-top: 15px;
+     margin-bottom: 15px;
+     
+}
+.card_body_upcoming{
+
+  margin-left: 10px;
+  margin-right: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card_title_text_upcoming{
+
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+.card_body_text_upcoming{
+  font-weight: 549;
+ font-family: 'Roboto', sans-serif;
+}
+.card_body_upcoming:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+.img-fixed {
+  height: 150px;         /* Or whatever height suits your design */
+  object-fit: cover;     /* Ensures images cover the box without distortion */
+}
+.img_card_upcoming{
+  height: 250px;
+}
+
+
+@media (max-width: 575px){
+.card_body_upcoming{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+}
+@media (max-width: 991px){
+  .card_body_upcoming{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+}

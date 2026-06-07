@@ -1,0 +1,134 @@
+.intership-wrapper-cont .internship-main-cont {
+    position: relative;
+}
+
+.intership-wrapper-cont .internship-main-cont .internship-image-cont img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.intership-wrapper-cont .internship-main-cont .internship-heading-cont {
+    padding: 1rem 10rem;
+     background: #047d98;
+}
+
+.intership-wrapper-cont .internship-main-cont .internship-heading-cont h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+}
+
+.intership-wrapper-cont .internship-main-cont .about-safe-zone-info {
+    width: 100%;
+    padding: 1.5rem 10rem;
+    background: rgb(236, 234, 234);
+}
+
+.about-safe-zone-info .about-safezone-foundation p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.about-safe-zone-info .about-opportunity p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.about-safe-zone-info-info .about-opportunity p span {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.about-safe-zone-info .work-condition ul li {
+    font-size: 1.2rem;
+}
+
+.about-safe-zone-info .work-condition ul li span {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.about-safe-zone-info .work-condition p {
+    font-size: 1.2rem;
+
+}
+
+.about-safe-zone-info .work-condition p span {
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+/* responsive design */
+@media (min-width:600px) and (max-width:850px) {
+    .intership-wrapper-cont .internship-main-cont .internship-image-cont img {
+        width: 100%;
+        height: 21rem;
+        object-fit: cover;
+    }
+
+    .intership-wrapper-cont .internship-main-cont .internship-heading-cont {
+        padding: 1rem 4rem;
+         background: #047d98;
+    }
+
+    .intership-wrapper-cont .internship-main-cont .about-safe-zone-info {
+        width: 100%;
+        padding: 1.5rem 4rem;
+    }
+
+
+}
+
+
+@media (min-width:290px) and (max-width: 600px) {
+
+    .intership-wrapper-cont .internship-main-cont .internship-image-cont img {
+        width: 100%;
+        height: 14rem;
+        object-fit: cover;
+    }
+
+    .intership-wrapper-cont .internship-main-cont .internship-heading-cont {
+        padding: 1rem 1rem;
+         background: #047d98;
+    }
+    .intership-wrapper-cont .internship-main-cont .internship-heading-cont h2{
+        font-size: 2rem;
+    }
+
+    .intership-wrapper-cont .internship-main-cont .about-safe-zone-info {
+        width: 100%;
+        padding: 1rem 1rem;
+
+    }
+
+    .about-safe-zone-info .about-safezone-foundation p {
+       font-size: 1.02rem;
+        text-align: justify;
+    }
+
+    .about-safe-zone-info .about-opportunity p {
+       font-size: 1.02rem;
+        text-align: justify;
+    }
+
+    .about-safe-zone-info .work-condition ul li {
+        font-size: 1.1rem;
+    }
+
+    .about-safe-zone-info .work-condition ul li span {
+        font-size: 1.02rem;
+        font-weight: 600;
+    }
+
+    .about-safe-zone-info .work-condition p {
+        font-size: 1.02rem;
+        text-align: justify;
+    }
+
+    .about-safe-zone-info .work-condition h3 {
+        font-size: 1.1rem;
+    }
+}
